@@ -21,8 +21,8 @@ if sys.version_info[0] < 3 or sys.version_info[1] < 9:
     )
     sys.exit()
 
-TOKEN1= os.environ.get("TOKEN1")
-TOKEN2= os.environ.get("TOKEN2")
+TOKEN1 = os.environ.get("TOKEN1")
+TOKEN2 = os.environ.get("TOKEN2")
 
 TOKENS = TOKEN1 + TOKEN2
 
