@@ -21,9 +21,8 @@ if sys.version_info[0] < 3 or sys.version_info[1] < 9:
     )
     sys.exit()
 
-TOKEN1= os.environ.get("TOKEN1")
-TOKEN2= os.environ.get("TOKEN2")
-
+TOKEN1 = os.environ.get("TOKEN1")
+TOKEN2 = os.environ.get("TOKEN2")
 
 
 WORKERS = 16  # Number of maximum concurrent worker threads for the @run_async decorator and run_async(). Defaults to 4.
