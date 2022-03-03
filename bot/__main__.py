@@ -1,7 +1,7 @@
 from telegram import Update
 from telegram.ext import CallbackContext
 from telegram.ext import CommandHandler
-from bot import dispatcher1 , dispatcher2
+from bot import dispatcher1, dispatcher2
 
 
 def start(update: Update, context: CallbackContext):
